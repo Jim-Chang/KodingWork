@@ -1,0 +1,29 @@
+version: '2.3'
+services:
+  vpn-service:
+    image: hwdsl2/ipsec-vpn-server:latest
+    container_name: vpn-service
+    privileged: true
+    restart: always
+    mem_limit: 64M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1k"
+        max-file: "3"
+    ports:
+     - "500:500/udp"
+     - "4500:4500/udp"
+    networks:
+      - vpn-service
+    environment:
+      VPN_IPSEC_PSK: <your_key>
+      VPN_USER: <your_user_name>
+      VPN_PASSWORD: <your_password>
+      VPN_DNS_SRV1: 94.140.14.14
+      VPN_DNS_SRV2: 94.140.14.15
+
+networks:
+  vpn-service:
+    name: vpn-service-network
+    driver: bridge
