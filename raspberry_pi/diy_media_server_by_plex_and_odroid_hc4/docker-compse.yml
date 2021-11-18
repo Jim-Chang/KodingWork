@@ -1,0 +1,22 @@
+version: "2.1"
+services:
+  plex:
+    image: ghcr.io/linuxserver/plex
+    container_name: plex
+    network_mode: host
+    restart: always
+    mem_limit: 1.5G
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "3"
+    volumes:
+      - ./config:/config
+      - ./Movie:/movies  <舉例，依照你的情況而定>
+      - <掛入其他影音資料夾>...
+    environment:
+      - PUID=1000
+      - PGID=100
+      - VERSION=docker
+      - PLEX_CLAIM=claim-84dxqpKtCpCBMMEtDBJ9 <可略>
