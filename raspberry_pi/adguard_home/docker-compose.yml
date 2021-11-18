@@ -1,0 +1,26 @@
+version: '2.3'
+services:
+  vpn-service:
+    image: adguard/adguardhome:v0.107.0-b.5
+    container_name: adguardhome
+    restart: always
+    mem_limit: 256M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "3"
+    ports:
+     - "53:53/tcp"
+     - "53:53/udp"
+     - "3000:3000/tcp"
+    networks:
+      - adguardhome
+    volumes:
+      - ./work:/opt/adguardhome/work
+      - ./conf:/opt/adguardhome/conf      
+
+networks:
+  adguardhome:
+    name: adguardhome-network
+    driver: bridge
