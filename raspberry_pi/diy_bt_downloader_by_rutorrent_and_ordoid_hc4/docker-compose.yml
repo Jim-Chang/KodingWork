@@ -1,0 +1,30 @@
+version: '2.3'
+services:
+  utorrent:
+    image: ghcr.io/linuxserver/rutorrent
+    container_name: rutorrnet
+    mem_limit: 500m
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "3"
+    networks:
+      - rutorrnet
+    volumes:
+      - ./config:/config
+      - ./downloads:/downloads
+    ports:
+      - 8081:80
+      - 5000:5000
+      - 51413:51413
+      - 6881:6881/udp
+    restart: always
+    environment:
+      PUID: <你的 UID>
+      PGID: <你的 GID>
+
+networks:
+  rutorrnet:
+    name: rutorrnet-network
+    driver: bridge
