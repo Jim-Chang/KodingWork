@@ -12,6 +12,14 @@ Here will collect demo code of post which published in [KodingWork](https://kodi
 | [十分鐘架設自己的 VPN server](https://koding.work/10-minutes-build-vpn-server/)                                                   | [click me](raspberry_pi/10_minutes_build_vpn_server)                   |
 
 
+### Arduino
+| Post                                                                                                                                   | Source Code                                                          |
+| -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [如何用 Raspberry pi pico 做 I2C Slave？ 使用 MicroPython 與 Raspberry pi](https://koding.work/let-raspberry-pi-pico-to-be-i2c-slave/) | [click me](arduino/let_raspberry_pi_pico_to_be_i2c_slave)            |
+| [用 Raspberry pi pico 與 HC-SR04 做超音波距離測量](https://koding.work/use-raspberry-pi-pico-hc-sr04-to-detect-distance/)              | [click me](arduino/use_raspberry_pi_pico_hc_sr04_to_detect_distance) |
+| [用 Raspberry pi pico 做 PWM Motor Control](https://koding.work/use-raspberry-pi-pico-to-do-pwm-motor-control/)                        | [click me](arduino/use_raspberry_pi_pico_to_do_pwm_motor_control)    |
+
+
 ### Deep learning
 | Post                                                                                                                           | Source Code                                |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
