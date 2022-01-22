@@ -1,0 +1,29 @@
+version: '2.3'
+services:
+  fah:
+    build: .
+    image: folding-at-home:7.6.21
+    container_name: fah
+    restart: always
+    cpus: 3.5
+    cpu_count: 4
+    cpuset: "0-3"
+    cpu_shares: 16
+    mem_limit: 1G
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "3"
+    ports:
+     - "7396:7396"
+    networks:
+      - fah
+    volumes:
+      - ./config:/etc/fahclient
+      - ./work:/work
+
+networks:
+  fah:
+    name: fah-network
+    driver: bridge

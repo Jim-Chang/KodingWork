@@ -6,6 +6,7 @@ Here will collect demo code of post which published in [KodingWork](https://kodi
 ### Raspberry Pi
 | Post                                                                                                                              | Source Code                                                            |
 | --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [如何用 Raspberry pi 參與 Folding@home？](https://koding.work/how-to-use-raspberry-pi-join-folding-at-home-project/)             | [click me](raspberry_pi/how_to_use_raspberry_pi_join_folding_at_home_project)                                  |
 | [AdGuard Home 超簡單架設教學！](https://koding.work/build-adguard-home-is-super-easy/)                                            | [click me](raspberry_pi/adguard_home)                                  |
 | [自己 DIY 超省電 BT 下載機吧！- 安裝 ruTorrent 到 odroid HC4](https://koding.work/diy-bt-downloader-by-rutorrent-and-ordoid-hc4/) | [click me](raspberry_pi/diy_bt_downloader_by_rutorrent_and_ordoid_hc4) |
 | [自己 DIY 一個 Media Server 吧！- 安裝 Plex 到 odroid HC4](https://koding.work/diy-media-server-by-plex-and-odroid-hc4/)          | [click me](raspberry_pi/diy_media_server_by_plex_and_odroid_hc4)       |
