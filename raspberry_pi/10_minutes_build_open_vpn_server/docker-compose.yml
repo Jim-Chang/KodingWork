@@ -1,0 +1,25 @@
+version: '2.3'
+services:
+  openvpn-service:
+    image: kylemanna/openvpn 
+    container_name: openvpn-service
+    cap_add: 
+      - NET_ADMIN
+    restart: always
+    mem_limit: 64M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "3"
+    ports:
+      - "1194:1194/udp"
+    networks:
+      - openvpn-service
+    volumes:
+      - ./data:/etc/openvpn
+
+networks:
+  openvpn-service:
+    name: openvpn-service-network
+    driver: bridge
