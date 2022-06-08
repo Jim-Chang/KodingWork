@@ -11,6 +11,7 @@ Here will collect demo code of post which published in [KodingWork](https://kodi
 | [自己 DIY 超省電 BT 下載機吧！- 安裝 ruTorrent 到 odroid HC4](https://koding.work/diy-bt-downloader-by-rutorrent-and-ordoid-hc4/) | [click me](raspberry_pi/diy_bt_downloader_by_rutorrent_and_ordoid_hc4)        |
 | [自己 DIY 一個 Media Server 吧！- 安裝 Plex 到 odroid HC4](https://koding.work/diy-media-server-by-plex-and-odroid-hc4/)          | [click me](raspberry_pi/diy_media_server_by_plex_and_odroid_hc4)              |
 | [十分鐘架設自己的 VPN server](https://koding.work/10-minutes-build-vpn-server/)                                                   | [click me](raspberry_pi/10_minutes_build_vpn_server)                          |
+| [如何用 OpenCV + Flask 快速搭建影像串流？](https://koding.work/video-streaming-with-opencv-flask/)                                | [click me](raspberry_pi/video_streaming_with_opencv_flask)                    |
 
 
 ### Arduino
