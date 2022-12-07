@@ -49,3 +49,9 @@ Here will collect demo code of post which published in [KodingWork](https://kodi
 | Post                                                                                               | Source Code                                                |
 | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | [如何建立 RWD 的 Image Map 影像地圖？](https://koding.work/how-to-make-dynamic-image-map-for-rwd/) | [click me](frontend/how_to_make_dynamic_image_map_for_rwd) |
+
+
+### Devops
+| Post                                                                                                                           | Source Code                                |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
+| [如何建立 MySQL Replica DB？](https://koding.work/how-to-build-mysql-replica-db/)                        | [click me](devops/how_to_build_mysql_replica_db) |

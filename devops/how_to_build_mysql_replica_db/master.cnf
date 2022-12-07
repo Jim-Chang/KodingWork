@@ -1,0 +1,6 @@
+[mysqld]
+server-id        = 1
+log-bin          = mysql-bin
+max_binlog_size  = 100M
+user             = mysql
+default-authentication-plugin=mysql_native_passwor

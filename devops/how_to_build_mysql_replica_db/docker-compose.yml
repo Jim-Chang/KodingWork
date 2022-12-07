@@ -1,0 +1,28 @@
+version: '3'
+services:
+  master:
+    image: mysql/mysql-server:8.0.22
+    volumes:
+      - ./master.cnf:/etc/my.cnf
+    networks:
+      db:
+    environment:
+      MYSQL_ROOT_PASSWORD: 12345
+      MYSQL_DATABASE: test
+      MYSQL_USER: user
+      MYSQL_PASSWORD: 12345
+
+  slave:
+    image: mysql/mysql-server:8.0.22
+    volumes:
+      - ./slave.cnf:/etc/my.cnf
+    networks:
+      db:
+    environment:
+      MYSQL_ROOT_PASSWORD: 12345
+      MYSQL_USER: user
+      MYSQL_PASSWORD: 12345
+
+networks:
+  db:
+    driver: bridge
