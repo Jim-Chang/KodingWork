@@ -55,3 +55,4 @@ Here will collect demo code of post which published in [KodingWork](https://kodi
 | Post                                                                                                                           | Source Code                                |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
 | [如何建立 MySQL Replica DB？](https://koding.work/how-to-build-mysql-replica-db/)                        | [click me](devops/how_to_build_mysql_replica_db) |
+| [無痛架設 Drone CI/CD](https://koding.work/painless-set-up-drone-ci-cd/)                        | [click me](devops/painless_set_up_drone_ci_cd) |
