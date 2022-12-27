@@ -1,0 +1,29 @@
+{
+  "name": "Tutorial",
+  "version": "0.1",
+  "description": "Understand Chrome Extension Message Passing",
+  "manifest_version": 3,
+  "permissions": [],
+  "action": {
+      "default_popup": "popup-panel.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inject-script.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "externally_connectable": {
+    "matches": ["<all_urls>"]
+  }
+}
