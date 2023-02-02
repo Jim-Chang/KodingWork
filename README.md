@@ -14,6 +14,7 @@ Here will collect demo code of post which published in [KodingWork](https://kodi
 | [十分鐘 OpenVPN server 架設 – docker 手把手教學](https://koding.work/10-minutes-build-open-vpn-server/)                           | [click me](raspberry_pi/10_minutes_build_open_vpn_server)                     |
 | [如何用 OpenCV + Flask 快速搭建影像串流？](https://koding.work/video-streaming-with-opencv-flask/)                                | [click me](raspberry_pi/video_streaming_with_opencv_flask)                    |
 | [Rock 5B RK3588 開箱測試！](https://koding.work/rock-5-model-b-rk3588-unboxing/)                                | [click me](raspberry_pi/rock_5_model_b_rk3588_unboxing)                    |
+| [如何用 Raspberry pi 作 Webcam？](https://koding.work/diy-a-webcam-with-raspberry-pi/)                                | [click me](raspberry_pi/diy_a_webcam_with_raspberry_pi)                    |
 
 
 
