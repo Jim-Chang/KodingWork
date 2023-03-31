@@ -27,10 +27,11 @@ Here will collect demo code of post which published in [KodingWork](https://kodi
 
 
 ### Deep learning
-| Post                                                                                                                           | Source Code                                |
-| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
-| [如何優化 Face Recognition 套件的人臉辨識？](https://koding.work/how-to-optimize-face-recognition-lib/)                        | [click me](deep_learning/face_recognition) |
-| [使用 Face Recognition 套件快速建立自己的人臉辨識系統！](https://koding.work/use-face-recognition-lib-to-do-face-recognition/) | [click me](deep_learning/face_recognition) |
+| Post                                                                                                                           | Source Code                                    |
+| ------------------------------------------------------------------------------------------------------------------------------ |------------------------------------------------|
+| [如何優化 Face Recognition 套件的人臉辨識？](https://koding.work/how-to-optimize-face-recognition-lib/)                        | [click me](deep_learning/face_recognition)     |
+| [使用 Face Recognition 套件快速建立自己的人臉辨識系統！](https://koding.work/use-face-recognition-lib-to-do-face-recognition/) | [click me](deep_learning/face_recognition)     |
+| [不用顯卡也能玩 Stable Diffusion WebUI - 使用 AWS 架設](https://koding.work/use-aws-ec2-to-build-stable-diffusion-webui/) | [click me](deep_learning/stable_diffusion_ec2) |
 
 
 ### Python
