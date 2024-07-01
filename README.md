@@ -32,6 +32,7 @@ Here will collect demo code of post which published in [KodingWork](https://kodi
 | [如何優化 Face Recognition 套件的人臉辨識？](https://koding.work/how-to-optimize-face-recognition-lib/)                        | [click me](deep_learning/face_recognition)     |
 | [使用 Face Recognition 套件快速建立自己的人臉辨識系統！](https://koding.work/use-face-recognition-lib-to-do-face-recognition/) | [click me](deep_learning/face_recognition)     |
 | [不用顯卡也能玩 Stable Diffusion WebUI - 使用 AWS 架設](https://koding.work/use-aws-ec2-to-build-stable-diffusion-webui/) | [click me](deep_learning/stable_diffusion_ec2) |
+| [如何免費用 Google Gemini 1.5 Pro 做 Chat with Codebase 程式碼問答 AI 機器人？](https://koding.work/free-chat-with-codebase-using-google-gemini-1-5-pro/) | [click me](deep_learning/llm/chat_with_code_base) |
 
 
 ### Python
